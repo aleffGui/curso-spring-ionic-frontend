@@ -27,7 +27,6 @@ export class CategoriasPage {
       .subscribe((res) => {
         this.items = res;
       }, err => {
-        console.log(err)
       })
   }
 
